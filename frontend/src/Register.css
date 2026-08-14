@@ -1,0 +1,56 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  /* Baby pink gradient background */
+  background: linear-gradient(135deg, #ffb6c1, #ffc0cb);
+}
+
+.register-box {
+  background-color: #fff;
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.15);
+  width: 360px;
+}
+
+.register-box h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #e75480; /* pink heading */
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.register-box input,
+.register-box select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ffc0cb;
+  border-radius: 8px;
+  outline: none;
+}
+
+.register-box input:focus,
+.register-box select:focus {
+  border-color: #e75480;
+  box-shadow: 0 0 5px #e75480;
+}
+
+.register-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #e75480;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.register-box button:hover {
+  background-color: #ff69b4;
+}

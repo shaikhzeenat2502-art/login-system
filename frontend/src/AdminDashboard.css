@@ -1,0 +1,116 @@
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.dashboard-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #008080; /* Teal heading */
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Counts Section */
+.counts {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.count-card {
+  background: #f8f9fa; /* Light grey background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Forms Section */
+.forms-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.form-section {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+.form-section h3 {
+  margin-bottom: 15px;
+  color: #008080; /* Teal subheading */
+}
+
+.form-section input,
+.form-section select,
+.form-section button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.form-section input:focus,
+.form-section select:focus {
+  border-color: #008080;
+  box-shadow: 0 0 5px #008080;
+}
+
+.form-section button {
+  background-color: #008080;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-section button:hover {
+  background-color: #006666;
+}
+
+/* Tables Section */
+.table-section {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.table-section h3 {
+  margin-bottom: 15px;
+  color: #008080; /* Teal subheading */
+}
+
+.table-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-section th,
+.table-section td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.table-section th {
+  background-color: #008080;
+  color: white;
+}
+
+.table-section tr:hover {
+  background-color: #f1f1f1;
+}
